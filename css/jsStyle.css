@@ -1,0 +1,88 @@
+/* style de la modal */
+
+#modalWindow {
+  position: fixed;
+  /* z-index: 100; */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  display: none;
+}
+
+.modal {
+  flex: 1;
+  max-width: 650px;
+  margin: auto;
+  padding: 2.4rem;
+  background-color: white;
+  border-style: double;
+}
+
+#modalWindow li {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.2;
+  font-family: Lato;
+  margin-bottom: 10px;
+}
+#modalWindow button {
+  background-color: white;
+  border: none;
+  font-weight: 900;
+  font-size: 50px;
+  float: right;
+}
+
+#modalWindow button:hover {
+  color: #007bff;
+}
+
+#modalWindow h2 {
+  margin-top: 0px;
+  width: 10em;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 56px;
+}
+
+/* style du disclosure */
+
+#disclosureWindow {
+  text-align: center;
+  display: none;
+}
+#disclosureWindow ul {
+  margin-bottom: 100px;
+}
+
+#disclosureWindow li {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.2;
+  font-family: Lato;
+  margin-bottom: 10px;
+}
+#disclosureWindow button {
+  background-color: white;
+  border: none;
+  font-weight: 900;
+  font-size: 50px;
+  float: right;
+}
+
+#disclosureWindow button:hover {
+  color: #007bff;
+}
+
+#disclosureWindow h2 {
+  width: 600px !important;
+  margin: auto;
+  padding-left: 0px !important;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 56px;
+}
